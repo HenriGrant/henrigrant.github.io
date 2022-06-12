@@ -12,10 +12,15 @@ h1 {
 	display: inline-block;
 	margin-left: 25%;
 	margin-right: 25%;
+	font-size: 30px;
 }
 
 
 @media only screen and (max-width: 1366px) {
+	h1 {
+		font-size: 12px;
+	}
+
 	.menubar {
 		margin: 0;
 		padding: 0;
