@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
 body {
 	background-color: rgb(219, 160, 0);
 	margin: 0;
@@ -22,11 +22,10 @@ img {
 
 h1 {
 	text-align: center;
-	/* display: block; */
 	font-size: 26px;
 	color: rgb(138, 17, 15);
 	margin-top: 0px;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Petit Formal Script', cursive;
 	/* font-family: 'Kdam Thmor Pro', sans-serif; */
 }
 
@@ -35,7 +34,6 @@ h1 {
 	h1 {
 		padding-left: 25px;
 		margin-top: 0;
-		/* display: inline-block; */
 		text-align: center;
 		font-variant: small-caps;
 	}
@@ -44,7 +42,7 @@ h1 {
 		width: 20px;
 		height: 20px;
 		padding: 0;
-		margin-top: 10px;
+		margin-top: 6px;
 	}
 
 	/* Dropdown Button */
