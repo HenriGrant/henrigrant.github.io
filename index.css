@@ -21,6 +21,15 @@ img {
 	display: none;
 }
 
+#slideSource {
+	opacity: 0;
+	transition: opacity 5s;
+}
+
+#slideSource.fade {
+	opacity: 1;
+}
+
 h1 {
 	text-align: center;
 	font-size: 26px;
@@ -44,15 +53,6 @@ h1 {
 		height: 20px;
 		padding: 0;
 		margin-top: 6.5px;
-	}
-
-	#slideSource {
-		opacity: 0;
-		transition: opacity 5s;
-	}
-
-	#slideSource.fade {
-		opacity: 1;
 	}
 
 	/* Dropdown Button */
