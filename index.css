@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
 body {
 	background-color: rgb(219, 160, 0);
 	margin: 0;
@@ -26,6 +27,7 @@ h1 {
 	color: rgb(138, 17, 15);
 	margin-top: 0px;
 	font-family: 'Petit Formal Script', cursive;
+	font-variant: small-caps;
 	/* font-family: 'Kdam Thmor Pro', sans-serif; */
 }
 
@@ -35,14 +37,22 @@ h1 {
 		padding-left: 25px;
 		margin-top: 0;
 		text-align: center;
-		font-variant: small-caps;
 	}
 
 	img {
 		width: 20px;
 		height: 20px;
 		padding: 0;
-		margin-top: 6px;
+		margin-top: 6.5px;
+	}
+
+	#slideSource {
+		opacity: 0;
+		transition: opacity 5s;
+	}
+
+	#slideSource.fade {
+		opacity: 1;
 	}
 
 	/* Dropdown Button */
@@ -63,7 +73,7 @@ h1 {
 	.dropdown-content {
 		display: none;
 		position: absolute;
-		background-color: #6c0000;
+		background-color: rgb(138, 17, 15);
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		z-index: 1;
@@ -71,17 +81,17 @@ h1 {
 
 	/* Links inside the dropdown */
 	.dropdown-content a {
-		color: black;
+		color: white;
 		padding: 12px 16px;
 		text-decoration: none;
 		display: block;
 		text-align: center;
-		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family: 'Kdam Thmor Pro', sans-serif;
 	}
 
 	/* Change color of dropdown links on hover */
 	.dropdown-content a:hover {
-		background-color: #ddd
+		background-color: rgb(130, 130, 130)
 	}
 
 	/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
