@@ -1,3 +1,5 @@
+// Version 1.0
+
 var slideSource = document.getElementById('slideSource');
 
 window.onload = function () {
