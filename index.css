@@ -1,5 +1,10 @@
+/* Version 1.0 */
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+:root {
+	--main-color: rgb(138, 17, 15);
+}
 
 body {
 	background-color: rgb(219, 160, 0);
@@ -11,6 +16,7 @@ body {
 	background-color: white;
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
 
 img {
@@ -30,10 +36,18 @@ img {
 	opacity: 1;
 }
 
+.bara {
+	text-decoration: none;
+	color: var(--main-color);
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+
 h1 {
 	text-align: center;
 	font-size: 26px;
-	color: rgb(138, 17, 15);
+	color: var(--main-color);
 	margin-top: 0px;
 	font-family: 'Petit Formal Script', cursive;
 	font-variant: small-caps;
@@ -42,6 +56,10 @@ h1 {
 
 
 @media only screen and (max-width: 1000px) {
+	.bara {
+		display: none;
+	}
+
 	h1 {
 		padding-left: 25px;
 		margin-top: 0;
