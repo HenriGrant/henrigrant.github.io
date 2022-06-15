@@ -17,3 +17,14 @@ window.onclick = function (event) {
     }
   }
 }
+
+// fade
+var slideSource = document.getElementById('slideSource');
+
+// window.onload = function ()) {
+//   slideSource.classList.toggle('fade');
+// }
+
+window.onload = function () {
+  slideSource.classList.toggle('fade')
+}

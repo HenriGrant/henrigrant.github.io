@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Michael Goulet's Senior Quote</title>
 	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="menubar.css">
 </head>
 
 <body>
+	<!-- Menu Bar Start-->
 	<div class="menubar">
 		<div class="dropdown">
-			<img src="menu.svg" onclick="myFunction()" class="dropbtn" alt="drowpdown menu button">
+			<img src="menu.svg" onclick="myFunction()" class="dropbtn" alt="drowpdown menu button" id="menusvg">
 			<div id="myDropdown" class="dropdown-content">
 				<a href="index.html">Home</a>
 				<a href="https://google.com">Pictures</a>
-				<a href="#">Music</a>
-				<a href="#">Games</a>
+				<a href="music.html">Music</a>
+				<a href="games.html">Games</a>
+				<a href="https://steamcommunity.com/id/BanndBoi" target="_blank">Steam</a>
 			</div>
 		</div>
-		<h1 id="slideSource">Michael Goulet Class of 2024</h1>
-		<a href="index.html" class="bara" style="text-align: center;">Home</a>
+		<h1>Michael Goulet Class of 2024</h1>
+		<a href="index.html" class="bara">Home</a>
 		<a href="pictures.html" class="bara">Pictures</a>
 		<a href="music.html" class="bara">Music</a>
 		<a href="games.html" class="bara">Games</a>
+		<a href="https://steamcommunity.com/id/BanndBoi" class="bara" target="_blank">Steam</a>
+	</div>
+	<!-- Mennu Bar End-->
+	<div class="maincontent">
+		<iframe src="https://steamcommunity.com/id/BanndBoi" frameborder="0"></iframe>
 	</div>
 	<script src="index.js"></script>
 	<script src="fade.js"></script>
