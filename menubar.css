@@ -51,11 +51,12 @@ h1 {
 		text-align: center;
 	}
 
-	img {
+	#menusvg {
 		width: 20px;
 		height: 20px;
 		padding: 0;
 		margin-top: 6.5px;
+		display: inline-block;
 	}
 
 	/* Dropdown Button */
