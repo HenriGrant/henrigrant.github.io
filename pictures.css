@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+:root {
+    --main-color: rgb(138, 17, 15);
+}
+
+body {
+    background-color: rgb(219, 160, 0);
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border: solid var(--main-color) 5px;
+}
+
+.maincontent {
+    margin: 20px 20px 10px 25%;
+    align-items: center;
+}
+
+/* #slideSource {
+    opacity: 0;
+    transition: opacity 5s;
+}
+
+#slideSource.fade {
+    opacity: 1;
+} */

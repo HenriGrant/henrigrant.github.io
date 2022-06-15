@@ -18,10 +18,13 @@ window.onclick = function (event) {
   }
 }
 
-/* fade
+// fade
 var slideSource = document.getElementById('slideSource');
 
+// window.onload = function ()) {
+//   slideSource.classList.toggle('fade');
+// }
+
 window.onload = function () {
-  slideSource.classList.toggle('fade');
+  slideSource.classList.toggle('fade')
 }
-*/
