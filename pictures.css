@@ -16,6 +16,7 @@ img.pic {
     border: solid var(--main-color) 5px;
     display: inline-block;
     margin: 5px auto 5px auto;
+    padding: 0;
 }
 
 .imgs {
@@ -25,5 +26,6 @@ img.pic {
 @media only screen and (max-width: 1000px) {
     img.pic {
         display: block;
+        max-width: 90%;
     }
 }
