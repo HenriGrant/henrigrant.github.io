@@ -14,12 +14,16 @@ body {
 img.pic {
     width: 500px;
     border: solid var(--main-color) 5px;
-    display: block;
+    display: inline-block;
     margin: 5px auto 5px auto;
 }
 
-.pic1 {
-    margin: 10px auto 10px auto;
+.imgs {
+    margin: 0 10% 0 10%;
 }
-.pic2 {
+
+@media only screen and (max-width: 1000px) {
+    img.pic {
+        display: block;
+    }
 }
