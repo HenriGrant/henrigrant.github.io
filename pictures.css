@@ -11,22 +11,15 @@ body {
     padding: 0;
 }
 
-img {
-    width: 50%;
-    height: 50%;
+img.pic {
+    width: 500px;
     border: solid var(--main-color) 5px;
+    display: block;
+    margin: 5px auto 5px auto;
 }
 
-.maincontent {
-    margin: 20px 20px 10px 25%;
-    align-items: center;
+.pic1 {
+    margin: 10px auto 10px auto;
 }
-
-/* #slideSource {
-    opacity: 0;
-    transition: opacity 5s;
+.pic2 {
 }
-
-#slideSource.fade {
-    opacity: 1;
-} */
