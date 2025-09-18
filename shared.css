@@ -87,6 +87,11 @@ h1 {
 * Only apply these to mobile view
 */
 @media only screen and (max-width: 600px) {
+
+    #menubar {
+        margin-bottom: 20px;
+    }
+
     body {
         margin: 10px;
         width: vw;
