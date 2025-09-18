@@ -1,0 +1,94 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Ubuntu&display=swap');
+
+
+:root {
+    color: midnightblue;
+    background-color: #F1EDE0;
+    --bg-color: lightblue;
+    --header-text-color: darkblue;
+    --p-text-color: midnightblue;
+    font-family: 'Ubuntu', Helvetica, sans-serif;
+    --main-radius: 5px;
+    --shadow-color: #3B2D21;
+}
+
+body {
+    margin: 20px auto;
+    background-color: var(--bg-color);
+    border-radius: var(--main-radius);
+    padding: 10px;
+}
+
+#menubar {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #F1EDE0;
+}
+
+.menubar {
+    font-size: 20pt;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+}
+
+#currentPage {
+    font-weight: bold;
+}
+
+
+article {
+    margin: 5px 0 5px 0;
+    padding: 5px 5px 5px 5px;
+    border-radius: var(--main-radius);
+    border-style: solid;
+    border-color: #F1EDE0;
+}
+
+img {
+    width: 140px;
+    border-radius: var(--main-radius);
+}
+
+a {
+    color: var(--header-text-color);
+}
+
+p {
+    color: var(--p-text-color);
+    width: fit-content;
+}
+
+h1 {
+    margin-top: 0;
+    width: fit-content;
+    color: var(--header-text-color);
+}
+
+
+/*
+* Only apply these to desktop view
+*/
+@media only screen and (min-width: 600px) {
+    body {
+        width: 80%;
+        /*filter: drop-shadow(black 1rem 1rem 16px);*/
+    }
+/*
+    article {
+        width: 33%;
+    }
+*/
+}
+
+/*
+* Only apply these to mobile view
+*/
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+        width: vw;
+    }
+}
