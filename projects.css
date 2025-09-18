@@ -1,0 +1,30 @@
+
+footer {
+    margin-top: 5px;
+}
+
+/*
+* Only apply these to desktop view
+*/
+@media only screen and (min-width: 600px) {
+    .article-img {
+        width: 50%;
+    }
+
+    article {
+        border-radius: var(--main-radius);
+        padding: 5px;
+        border-style: solid;
+        border-color: #F1EDE0;
+    }
+
+}
+
+/*
+* Only apply these to mobile view
+*/
+@media only screen and (max-width: 600px) {
+    .article-img {
+        width: 100%;
+    }
+}
